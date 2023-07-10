@@ -9,7 +9,6 @@ body {
 }
 
 
-
 h1 {
   font-family: 'Arial Black', sans-serif;
   font-size: 2rem;
@@ -116,7 +115,7 @@ h1 {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: #b92020;
   color: white;
   padding: 12px 24px;
   font-size: 16px;
@@ -131,6 +130,6 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #db7249;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
