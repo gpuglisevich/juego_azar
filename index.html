@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MI Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="instructions-dialog" class="modal">
+    <div class="modal-content">
+      <h3>Instrucciones</h3>
+      <p>¡Estás a punto de ganar un espectacular premio "Mi"! Solo tienes 3 oportunidades. ¡Mucha suerte!</p>
+      <button id="close-instructions">Entendido</button>
+    </div>
+  </div>
+  <div id="game" style="display: none;">
+    <h1>ENCUENTRA EL JOKER</h1>
+    <div class="game-container">
+      <div id="game-board" class="game-board">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div id="score-board" class="score-board">Puntuación: <span id="score">0</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
